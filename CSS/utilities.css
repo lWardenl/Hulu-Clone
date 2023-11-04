@@ -17,6 +17,6 @@ img{
     overflow-y: scroll;
     width: 100vw;
     height: 100vh;
-    background-color: grey;
+    background-color: black;
     align-items: center;
 }
