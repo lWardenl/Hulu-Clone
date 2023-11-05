@@ -35,9 +35,7 @@
 .hero-section{
     display: flex;
     flex-direction: column;
-    /* flex-direction: column; */
     position: relative;
-    /* background-size: contain; */
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -68,7 +66,6 @@
 }
 
 .plan-title{
-    font-family: Graphik Web,Graphik,sans-serif;
     color: #1ce783;
     text-shadow: black;
     padding-bottom: 10px;
@@ -83,7 +80,6 @@
 }
 
 .plan-info{
-    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 8px;
@@ -144,10 +140,9 @@
 
 .sub-header > p{
     color: white;
-    font-family: "Graphik Web",sans-serif;
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.32;
+    letter-spacing: 1.32;
 }
 
 .sub-header > button{
@@ -161,6 +156,7 @@
 .sub-header > button > p{
     color: white;
     font-weight: bolder;
+    letter-spacing: 0.6px;
 }
 
 /* All plans section */
@@ -170,14 +166,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+
 }
 
-.movie-cards-wrapper{
+.all-plans-text{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: relative;
+}
+
+.all-plans-text > h2{
+    font-size: small;
+    color: #1ce07e;
+    font-weight: bold;
+}
+
+.all-plans-text > h3{
+    font-size: 50px;
+}
+
+.all-plans-text > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 1px;
+    max-width: 750px;
+    color: rgb(219, 219, 219);
+}
+
+.movie-card{
+    display: grid;
+    grid-template-columns: repeat(4,311px);
+    grid-column-gap: 40px;
+}
+
+.movie-card-info{
+    color: white;
+    /* position: relative; */
+    /* padding-top: 100px; */
 }
