@@ -210,3 +210,33 @@
     /* position: relative; */
     /* padding-top: 100px; */
 }
+
+.under-text-button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1ce783;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.under-button-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.under-button-text > p{
+    margin-top: 15px;
+    font-size: 10px;
+    max-width: 1000px;
+}
+.under-button-text > button{
+    background: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
