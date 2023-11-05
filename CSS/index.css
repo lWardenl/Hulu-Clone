@@ -254,13 +254,12 @@
 .live-sports-container{
     top: 140px;
     left: 250px;
-    max-width: 570px;
+    max-width: 560px;
     position: absolute;
 }
 
 .live-sports-list > ul{
     display: flex;
-    list-style: none;
     margin-bottom: 40px;
 }
 
@@ -296,7 +295,6 @@
 
 .live-sports-logos > ul{
     display: flex;
-    list-style: none;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -313,4 +311,53 @@
 
 .see-details{
     text-decoration: underline;
+}
+
+/* Section plan-selection */
+
+
+/* Section footer */
+.footer{
+    background: rgb(200, 200, 200);
+    color: rgb(65, 65, 65);
+}
+
+.footer-wrapper{
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 60px 200px;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footer-lists .list-title{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-lists > ul>li{
+    margin-bottom: 10px;
+}
+
+.footer-social-icons > ul{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px
+}
+
+.footer-social-icons > ul>li{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.footer-legals > ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
