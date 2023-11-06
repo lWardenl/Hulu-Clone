@@ -486,7 +486,7 @@ th{
     width: 0;
     height: 0;
 }
-  
+  /* The code for the slider is from W3 School: https://www.w3schools.com/howto/howto_css_switch.asp */
 /* The slider */
 .slider {
     position: absolute;
