@@ -207,8 +207,6 @@
 
 .movie-card-info{
     color: white;
-    /* position: absolute; */
-    /* padding-top: 100px; */
 }
 
 .under-text-button{
@@ -432,8 +430,6 @@ th{
 }
 
 .footer-wrapper{
-    /* display: flex; */
-    /* flex-direction: column; */
     padding: 60px 200px;
 }
 
